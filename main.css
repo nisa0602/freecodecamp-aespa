@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+.aes-photo{
+    width: 50em;
+}
+[alt="logo"]{
+    width: 100px;
+}
+ul {
+    list-style: inside;
+}
+a {
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 17px;
+}
+#anim{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    animation-name: bulat;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes bulat {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 700px;
+    }
+}
